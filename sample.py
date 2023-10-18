@@ -76,7 +76,7 @@ if __name__ == '__main__':
     device = 'cuda'
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--batch', type=int, default=8)
+    parser.add_argument('--batch', type=int, default=1)
     parser.add_argument('--vqvae', type=str)
     parser.add_argument('--top', type=str)
     parser.add_argument('--bottom', type=str)
